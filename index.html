@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>SuperHeroAPI</title></head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/sh1.jpg" alt="" width="45" class="d-inline-block align-text-top">SuperHero</a>
+        </div>
+      </nav>
+    <header class="text-center">
+        <img src="./assets/img/sh2.jpg" alt="">
+    </header>
+    <section class="mt-2">
+        <form action="">
+            <h1 class="mt-2">Encuentra tu SuperHero</h1>
+            <p class="mt-2">Encuentra el número del SuperHero a buscar</p>
+            <input class="w-50 d-block mt-2" type="text">
+            <button class="btn btn-primary mt-2" type="submit">Buscar</button>
+        </form>
+    </section>
+    <div class="container d-none" id="showCase">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="" class="img-fluid rounded-start" alt="">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h4 class="hero-name"></h4>
+                          <p class="hero-connection"></p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6"><div id="chartContainer" style="height: 300px; width: 100%;"></div></div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+</html>

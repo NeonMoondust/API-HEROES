@@ -1,0 +1,7 @@
+/* Normalize------*/
+body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding: 0;}
+/*Normalize------*/
+
+section{
+    margin-left: 30rem;
+}
